@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "author": "raptatinha",
   "license": "ISC",
-  "scripts": {
-    "webdriver:update": "webdriver-manager update",
-    "test:e2e:chrome": "rm -rf test/e2e/html-report/ && npm run webdriver:update && protractor test/e2e/protractorChrome.conf.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/raptatinha/automation-one.git"
+  },
+  "scripts": {
+    "webdriver:update": "webdriver-manager update",
+    "test:e2e:chrome": "rm -rf test/e2e/html-report/ && npm run webdriver:update && protractor test/e2e/protractorChrome.conf.js"
   },
   "dependencies": {},
   "devDependencies": {
