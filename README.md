@@ -18,12 +18,12 @@ This project replicates the functional testing with protractor
 
 # Setup
 
-npm install
+`npm install`
 
 
 # Running
 
-You need to start the application mentioned on the 'Technology' session, and run its `drop-db` and `seed-db` comand.
+You need to start the application mentioned on the 'Technology' session, and run its `drop-db` and `seed-db` command.
 
 - `test:e2e` runs tests on chrome and firefox both headless
 - `test:e2e:chrome` runs tests on chrome headless
