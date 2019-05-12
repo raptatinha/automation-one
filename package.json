@@ -1,0 +1,21 @@
+{
+  "name": "automation-one",
+  "version": "1.0.0",
+  "author": "raptatinha",
+  "license": "ISC",
+  "scripts": {
+    "webdriver:update": "webdriver-manager update",
+    "test:e2e:chrome": "rm -rf test/e2e/html-report/ && npm run webdriver:update && protractor test/e2e/protractorChrome.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raptatinha/automation-one.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor": "^5.4.2",
+    "protractor-helper": "^3.7.6",
+    "protractor-jasmine2-html-reporter": "0.0.7"
+  }
+}
