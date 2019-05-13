@@ -9,8 +9,8 @@
   },
   "scripts": {
     "webdriver:update": "webdriver-manager update",
-    "test:e2e:chrome": "rm -rf test/e2e/html-report/ && npm run webdriver:update && protractor test/e2e/protractorChrome.conf.js",
-    "test:e2e:firefox": "rm -rf test/e2e/html-report/ && npm run webdriver:update && protractor test/e2e/protractorFirefox.conf.js",
+    "test:e2e:chrome": "npm run webdriver:update && protractor test/e2e/protractorChrome.conf.js",
+    "test:e2e:firefox": "npm run webdriver:update && protractor test/e2e/protractorFirefox.conf.js",
     "test:e2e": "npm run test:e2e:chrome && npm run test:e2e:firefox"
   },
   "dependencies": {},
